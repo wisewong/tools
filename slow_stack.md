@@ -1,6 +1,9 @@
 # slow_stack
 
-查询机器上Tomcat服务CPU使用率最高的几个线程,脚本:
+## 作用
+查询机器上Tomcat服务CPU使用率最高的几个线程
+
+## 脚本
 
 
 ```bash
@@ -95,6 +98,7 @@ rm /tmp/${uuid}_*
 JAVA_HOME=你的java路径
 WEB_HOME=你的web项目所在路径
 ```
+## 使用
 
 假设你的tomcat进程是用tomcat账户启动的,用法如下：
 ```bash
